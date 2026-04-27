@@ -1,2 +1,2 @@
-# chesticuffs-java-edition
+# chesticuffs-spring-edition
 Java/ Spring Boot repository for Chesticuffs
