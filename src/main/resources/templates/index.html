@@ -10,9 +10,9 @@
         padding: 0;
 
         background-color: bisque;
-        /* background-image: url("/images/NDBH1-1.jpg");
+        background-image: url("/images/NDBH1-1.jpg");
         background-repeat: no-repeat;
-        background-size: 100vw 100vh; */
+        background-size: 100vw 100vh;
         width: 100vw;
         height: 100vh;
 
@@ -41,8 +41,8 @@
     #menuPanel{
         display:flex;
         flex-direction:column;
-        background-color:#F2BDC2;
-        border: 3px solid #F2BDC2;
+        background-color: coral;
+        border: 3px solid coral; /* #F2BDC2; */
         border-radius:5px;
         border-bottom-right-radius: 0%;
         border-top-right-radius:0%;
@@ -77,7 +77,7 @@
         font-family: 'Comic Sans MS', cursive, sans-serif; /* Comic-style font */
         font-size:large;
         background-color:#FFFaf3;
-        border:2px solid #F2BDC2;
+        border:2px solid coral;
     }
 
     /* Fonts + Buttons */
@@ -113,13 +113,13 @@
     <main>
         <div id="menuPanel">
             <div id="titleLogo">
-                CHEST WAR
+                CHEST-i-CUFFS
             </div>
             <div class="contentBox">
                 <!--        <button class="comic-button">test</button>-->
-                <a th:href="@{/greeting(name='Problems')}"><button class="comic-button">GREETING</button></a>
-                <a th:href="@{/cardBox}"><button class="comic-button">CARD BOX</button></a>
-                <a th:href="@{/play}"><button class="comic-button">PLAY NOW</button></a>
+                <a th:href="@{/greeting(name='Friends!')}"><button class="comic-button">ABOUT</button></a>
+                <a th:href="@{/cardBox}"><button class="comic-button">CARDS</button></a>
+                <a th:href="@{/play}"><button class="comic-button">START</button></a>
             </div>
         </div>
 
