@@ -41,8 +41,8 @@
     #menuPanel{
         display:flex;
         flex-direction:column;
-        background-color: coral;
-        border: 3px solid coral; /* #F2BDC2; */
+        background-color: #2d1300;
+        border: 3px solid #2d1300; /* #F2BDC2; */
         border-radius:5px;
         border-bottom-right-radius: 0%;
         border-top-right-radius:0%;
@@ -60,6 +60,15 @@
         color: #FFFaf3;
         text-shadow: 2px 3px #623313;
     }
+    .upTitle{
+        background-color: #2d1300;
+        padding: 0.5em;
+        font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+        font-size: x-large;
+        color: #FFFaf3;
+        text-shadow: 2px 3px #623313;
+    }
+
     .contentBox{
         display:flex;
         flex-direction:column;
@@ -72,12 +81,10 @@
     .updateBox{
         margin: 1em;
         margin-left:0%;
-        padding-left:0.4em;
-        padding-right:0.4em;
         font-family: 'Comic Sans MS', cursive, sans-serif; /* Comic-style font */
         font-size:large;
         background-color:#FFFaf3;
-        border:2px solid coral;
+        border:2px solid #2d1300;
     }
 
     /* Fonts + Buttons */
@@ -89,7 +96,7 @@
       font-size: 24px;
       font-weight: bold;
       color: #FFFaf3;
-      background-color: #DEc6aa;
+      background-color: saddlebrown; /* #DEc6aa */
       border: 4px solid #623313;
       border-radius: 10px;
       cursor: pointer;
@@ -100,7 +107,7 @@
     .comic-button:hover {
       /* Hover Effects */
       transform: translate(-3px, -3px); /* Slight movement on hover */
-      box-shadow: 9px 9px 0px #333; /* Enhanced "pop-out" */
+      box-shadow: 9px 9px 0px #623313; /* Enhanced "pop-out" */
     }
     .comic-button:active {
       /* Active (Click) Effects */
@@ -124,7 +131,8 @@
         </div>
 
         <div class="updateBox">
-            <p th:text="${fileContent}" style="white-space: pre-wrap;"></p>
+            <div class="upTitle">UPDATES - LATEST > OLDEST </div>
+            <p th:text="${fileContent}" style="white-space: pre-wrap; padding-left:0.4em; padding-right:0.4em;"></p>
         </div>
     </main>
 

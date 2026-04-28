@@ -7,7 +7,11 @@
     <style>
         body{
             background-color: bisque;
+            background-image: url("/images/NDBH1-1.jpg");
+            background-repeat: repeat;
+            background-size: 100vw 100vh;
             font-family: "Brush Script MT", "Lucida Handwriting", sans-serif;
+            color:white;
         }
         h1, h2{
             font-family: "Brush Script MT", "Lucida Handwriting", cursive;
@@ -15,7 +19,6 @@
             text-shadow: 2px 3px #623313;
         }
         p{
-            color: #623313;
             font-size:x-large;
         }
 
@@ -28,7 +31,7 @@
           font-size: 24px;
           font-weight: bold;
           color: #FFFaf3;
-          background-color: #DEc6aa;
+          background-color: coral; /* #DEc6aa */
           border: 4px solid #623313;
           border-radius: 10px;
           cursor: pointer;
@@ -39,7 +42,7 @@
         .comic-button:hover {
           /* Hover Effects */
           transform: translate(-3px, -3px); /* Slight movement on hover */
-          box-shadow: 9px 9px 0px #333; /* Enhanced "pop-out" */
+          box-shadow: 9px 9px 0px #623313; /* Enhanced "pop-out" */
         }
         .comic-button:active {
           /* Active (Click) Effects */
@@ -64,7 +67,6 @@
             content: "✒"; /* Custom icon/character */
             position: absolute;
             left: 0;
-            color: coral;
             font-weight: bold;
         }
     </style>
@@ -73,7 +75,7 @@
 <h1 th:text="|Hello, ${name}!|" />
 <h1>WELCOME TO CHEST-I-CUFFS</h1>
 
-<p class="fleuron"><span style="color:coral; font-size:x-large;">𝄆𝄞&#8536; ♫♩♩♭♩𝄀♩♩𝄾𝅘𝅥𝆫♩♩</span></p> <-- #F2BDC2 -->
+<p class="fleuron"><span style="color:coral; font-size:x-large;">𝄆𝄞&#8536; ♫♩♩♭♩𝄀♩♩𝄾𝅘𝅥𝆫♩♩</span></p> <!-- #F2BDC2 -->
 
 <h1>How-To Play</h1>
 <p>The goal is to build the best items and clear the other player's board. EVERYTHING is a weapon so use it to your advantage.</p>

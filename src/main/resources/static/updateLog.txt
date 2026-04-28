@@ -1,3 +1,9 @@
+TEST UPDATE 0.0.1
+Update Title: TEST pt. 2
+Description: Three Months later, finally testing the scroll.
+Changes: Play page looks better, new repo, about page is copy-paste from the thesis, cards technically exist, might start a master's, A.I. bubble might pop soon, code is almost done :D (me when I lie)
+Date: 04/27/2026
+
 TEST UPDATE 0.0.0
 Update Title: TEST
 Description: Testing the text upload function, so I don't have a html file filled with random text.
